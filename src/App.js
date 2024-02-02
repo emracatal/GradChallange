@@ -1,22 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./assets/logo.jpg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.instagram.com/dersortagim/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          MEF IDP Ders Ortağım Projesi
         </a>
+        <p className="bc-red"> brand color red</p>
+        <p className="bc-orange"> brand color orange</p>
+        <p className="bc-gray"> brand color gray</p>
       </header>
     </div>
   );
